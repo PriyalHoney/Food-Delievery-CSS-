@@ -220,12 +220,31 @@ position: relative;
 
 }
 #contact-box textarea{
-    width: 100%;
+    width: 97%;
     padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
 }
 
 #contact-box form{
     width: 40%
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* display: block; */
+    
+    
+}
+
+#contact-box input{
+    width: 100%;
+    
+}
+
+#contact-box .form-group{
+    padding: 8px;
 }
 
 
