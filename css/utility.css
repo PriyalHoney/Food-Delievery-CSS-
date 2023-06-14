@@ -1,0 +1,31 @@
+/* Utility Classes */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    margin: 29px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.h-secondary{
+    font-size: 2.2rem;
+    padding: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.btn{
+    padding: 6px 20px;
+    border:2px solid white ;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.center{
+    text-align: center;
+}

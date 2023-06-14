@@ -20,7 +20,7 @@
 /* Navigation Bar: Logo & Image  */
 #logo img {
   border-radius: 755px;
-  height: px;
+  height: 66px;
   margin: -11px -19px;
 }
 
@@ -33,6 +33,7 @@
 /* Navigation Bar: List Styling */
  #navbar ul{
     display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* Before & after pseudo selector */
@@ -44,6 +45,9 @@
     width: 100%;
     z-index: -1;
     opacity: 0.5;
+    top: 0px;
+    left: 0px;
+
 }
 
 
@@ -54,7 +58,7 @@
 }
 
 #navbar ul li a {
-    display: inline;
+    display: block;
     /* display ko block ya inlince kiya kuki padding deni h  */
 
     padding: 3px 22px;
@@ -69,3 +73,106 @@
    color: black;
    background-color: white;
 }
+
+
+
+
+
+/* Home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 628px;
+    color: white;
+}
+
+
+#home::before{
+    content: "";
+    background: url(/img/bg.avif) no-repeat center center/cover;
+    
+    position: absolute;
+    /* Positio will always be absolute */
+
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    top: 0;
+    /* bottom: 0; */
+    left: 0px;
+}
+
+
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+/* Services Section */
+.services{
+    margin: 34px;
+    display: flex;
+}
+
+.services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 30px;
+    border-radius: 28px;
+    
+    background-color: #ebd6d7;
+}
+
+.services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+.services .box p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+/* Client Section */
+#client-section{
+    height: 344px;
+
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 44px;
+ }
+
+ 
+
+#clients img{
+    height: 134px;
+    padding: 34px;
+}
+
+
+
