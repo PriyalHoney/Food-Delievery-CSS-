@@ -1,0 +1,71 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS Variables .  For eg-*/
+/* :root {
+  --navbar-height: 59px;
+} */
+
+/* navigation Bar */
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+/* Navigation Bar: Logo & Image  */
+#logo img {
+  border-radius: 755px;
+  height: px;
+  margin: -11px -19px;
+}
+
+
+#logo {
+  margin: 22px 32px;
+}
+
+
+/* Navigation Bar: List Styling */
+ #navbar ul{
+    display: flex;
+}
+
+/* Before & after pseudo selector */
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3 rem;
+   
+}
+
+#navbar ul li a {
+    display: inline;
+    /* display ko block ya inlince kiya kuki padding deni h  */
+
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+#navbar ul li a:hover{
+  
+   color: black;
+   background-color: white;
+}
