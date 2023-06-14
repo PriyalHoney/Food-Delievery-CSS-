@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
 /* CSS Variables .  For eg-*/
 /* :root {
   --navbar-height: 59px;
@@ -13,7 +21,8 @@
 #navbar {
   display: flex;
   align-items: center;
-  position: relative;
+  position: sticky;
+  top: 0px;
 }
 
 
@@ -132,7 +141,7 @@
 .services .box{
     border: 2px solid brown;
     padding: 34px;
-    margin: 30px;
+    margin: 3px 30px;
     border-radius: 28px;
     
     background-color: #ebd6d7;
@@ -153,7 +162,8 @@
 
 /* Client Section */
 #client-section{
-    height: 413px;
+    /* height: 413px; */
+    /* this height is affecting the responsiveness */
 
     /* Position relative kr dene se wo utni hi height lega jitni usko chiye */
     position: relative;
@@ -219,15 +229,22 @@ position: relative;
     padding-bottom: 34px;
 
 }
+
+
+
+
 #contact-box textarea{
     width: 97%;
     padding: 0.5rem;
     border-radius: 9px;
     font-size: 1.1rem;
+    
 }
 
 #contact-box form{
-    width: 40%
+    width: 40%;
+    
+    
 }
 
 #contact-box label{
@@ -249,9 +266,26 @@ position: relative;
 
 
 
+.submit{
+    padding: 6px 20px;
+    border:2px solid white ;
+    background-color: rgb(80, 80, 160);
+    color: white;
+    margin: 17px 16vw;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+
+
 /* Footer designing */
 .footer{
     background: black;
     color: white;
     padding: 9px 20px;
 }
+
+
